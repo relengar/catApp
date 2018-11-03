@@ -1,4 +1,11 @@
-Create the `./config/index.js` in the root folder of the app. Provide your mongo connect url. Cookie key can be set to a random string.
+
+Run following commands:
+```
+$ npm install
+$ npm run build
+```
+
+Update the `./config/index.js` in the root folder of the app. Provide your mongo connect url. Cookie key can be set to a random string.
 
 ```
 module.exports = {
@@ -6,14 +13,11 @@ module.exports = {
     cookieKey: '<Your cookie session secret>',
     catApiKey: '<Your cat api key>',
 }
-
-
 ```
-run following commands:
+
+Run the app with
 ```
-$ npm install
-$ npm run build
 $ npm start
 ```
 
-open your browser on url `http://localhost:5000/`
+Open your browser on url `http://localhost:5000/`
